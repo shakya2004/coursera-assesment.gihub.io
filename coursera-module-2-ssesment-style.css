@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    flex: auto;
+}
+h1{
+    text-align: center;
+}
+.container {
+    background-color: darkgray;
+    height: 175px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: black solid 3px;
+    margin-bottom: 2px;
+}
+.para {
+    margin-bottom: 0%;
+    line-height: 1.6em;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-bottom: 3px;
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Staatliches', cursive;
+text-transform: none;
+}
+.sub-heading-1{
+    background-color: rgb(228, 93, 172);
+    position: relative;
+    left: 70%;
+    width: 30%;
+    margin-top: 0%;
+    border-bottom: solid black 3px;
+    border-left: black 3px solid;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Staatliches', cursive;
+}
+.sub-heading-2{
+    background-color: firebrick;
+    position: relative;
+    left: 70%;
+    width: 30%;
+    margin-top: 0%;
+    color: white;
+    border-bottom: solid black 3px;
+    border-left: black 3px solid;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Staatliches', cursive;
+}
+.sub-heading-3{
+    background-color: rgb(149, 160, 0);
+    position: relative;
+    left: 70%;
+    width: 30%;
+    margin-top: 0%;
+    border-bottom: solid black 3px;
+    border-left: black 3px solid;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Staatliches', cursive;
+}
+
+.row{
+    width: 100%;
+}
+
+
+/*large display*/
+@media(min-width:992px){
+    .lg-1, .lg-2, .lg-3, .lg-4, .lg-5, .lg-6, .lg-7, .lg-8, .lg-9, .lg-10, .lg-11, .lg-12{
+        float: left;
+    }
+    .lg-1 {
+        width: 8.33%;
+    }
+    .lg-2 {
+        width: 16.66%;
+    }
+    .lg-3 {
+        width: 25%;
+    }
+    .lg-4 {
+        width: 33.33%;
+    }
+    .lg-5 {
+        width: 41.66%;
+    }
+    .lg-6 {
+        width: 50%;
+    }
+    .lg-7 {
+        width: 58.47%;
+    }
+    .lg-8 {
+        width: 66.66%;
+    }
+    .lg-9 {
+        width: 75;
+    }
+    .lg-10 {
+        width: 83.33%;
+    }
+    .lg-11 {
+        width: 92%;
+    }
+    .lg-12 {
+        width: 100%;
+    }
+}
+/*medium display*/
+@media (min-width:768px) and (max-width:991px){
+    .mg-1, .mg-2, .mg-3, .mg-4, .mg-5, .mg-6, .mg-7, .mg-8, .mg-9, .mg-10, .mg-11, .mg-12{
+        float: left;
+    }
+    .mg-1 {
+        width: 8.33%;
+    }
+    .mg-2 {
+        width: 16.66%;
+    }
+    .mg-3 {
+        width: 25%;
+    }
+    .mg-4 {
+        width: 33.33%;
+    }
+    .mg-5 {
+        width: 41.66%;
+    }
+    .mg-6 {
+        width: 50%;
+    }
+    .mg-7 {
+        width: 58.47%;
+    }
+    .mg-8 {
+        width: 66.66%;
+    }
+    .mg-9 {
+        width: 75;
+    }
+    .mg-10 {
+        width: 83.33%;
+    }
+    .mg-11 {
+        width: 92%;
+    }
+    .mg-12 {
+        width: 100%;
+    }
+}
